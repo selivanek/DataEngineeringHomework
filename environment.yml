@@ -1,0 +1,14 @@
+name: my-project
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.13
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - pip
+  - pip:
+    - wget
